@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="363dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="639dp"
+        android:gravity="center"
+        android:text="Nearest Service Stations"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="610dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ssa" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView211"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name:Hero Electric Service Center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address9"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:Raghav Ratna Towers, Mahesh Nagar Colony, Abids, Hyderabad, Telangana 500001"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact9"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91  082473 74910"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ssb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView221"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name: Hero Electric IBC"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address10"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:Bagher Complex, Fateh Maidan, Abids, Hyderabad, Telangana 500001"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact10"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 090148 28030"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ssc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView231"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name:GoToSpares - JAS EV Expert Centre (Repair Centre)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address11"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:near Ramkoti, Rajamohallah, King Koti, Hyderabad, Telangana 500027"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact11"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 080879 00251"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ssd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView241"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name:BLive EV Store Multi-Brand Center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address12"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:Road No:1, Green Hills Colony, Kothapet, Hyderabad, Telangana 500102"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact12"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91  099491 58158"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Back" />
+
+    </LinearLayout>
+
+</RelativeLayout>

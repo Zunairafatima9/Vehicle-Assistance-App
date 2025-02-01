@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_view"
+        tools:ignore="InvalidId" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_view"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="6dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_info" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="About Us"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="318dp"
+                    android:layout_height="113dp"
+                    android:text="Welcome to Vehicle Assistance, your reliable companion when you encounter vehicle breakdowns in the middle of your journey. We understand the frustration and inconvenience that comes with unexpected breakdowns, and that's why we're here to lend a helping hand."
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="318dp"
+                    android:layout_height="133dp"
+                    android:text="Vehicle Assistance is a cutting-edge mobile application designed to assist both electric vehicle (EV) owners and internal combustion (IC) vehicle drivers in times of need. Whether you're driving an EV or an IC vehicle, our app is your go-to solution for finding the necessary assistance, ensuring a smooth continuation of your travels."
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="318dp"
+                    android:layout_height="133dp"
+                    android:text="At Vehicle Assistance, we prioritize your convenience and peace of mind. Our user-friendly app interface, combined with our extensive network of service providers, ensures that help is always within reach when you need it the most. Rest assured that with Vehicle Assistance by your side, you can confidently embark on your journeys, knowing that assistance is just a tap away."
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

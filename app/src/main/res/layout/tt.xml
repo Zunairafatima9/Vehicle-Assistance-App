@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="363dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="639dp"
+        android:gravity="center"
+        android:text="Tow Truck Service"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="610dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView29"
+                app:srcCompat="@drawable/tta"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView291"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name: Safe Towing Service"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address25"
+                    android:layout_width="175dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address: 3-6-148/1, Devi Laxmi Bagh, Domalguda, Himayatnagar, Hyderabad, Telangana 500029"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact29"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91  098494 69614"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView30"
+                app:srcCompat="@drawable/ttb"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView301"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name: Hafeez towing"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address26"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:2.4.250, Nehru Nagar, Kachiguda, Hyderabad, Telangana 500027"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact30"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 090300 77860"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView31"
+                app:srcCompat="@drawable/ttc"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView311"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name:GoMechanic Towing Service"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address27"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:CF5Q+PHF, Indira Park Rd, Himayatnagar,Hyderabad, Telangana"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact31"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 083989 70970"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView32"
+                app:srcCompat="@drawable/ttd"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView321"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name: SA Cars Towing Services"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address28"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:12-2-839/17/3, Asif Nagar Rd,Royal Colony, Mehdipatnam, Hyderabad, Telangana 500028"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact32"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 079957 12586"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Back" />
+
+    </LinearLayout>
+
+</RelativeLayout>

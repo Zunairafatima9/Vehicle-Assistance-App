@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="363dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="637dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Nearest Battery Swapping Stations"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="610dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/bssa" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name:Nev Mobility"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address5"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:RTO main road, Arvind Nagar, Malakpet Extension, Moosarambagh, Hyderabad, Telangana 500036"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact5"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 09381395901"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/bssb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name:Spark Battery"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address6"
+                    android:layout_width="175dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:5-4-703, Abids Street no.2, Old, Nampally Station Rd, beside Masjid, Old Kattal Mandi, Abids, Hyderabad, Telangana"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact6"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 09620919996"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/bssc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name:MIZNA MOTORS electric vehicles spares and services"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address7"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:Gazi banda,20-6-200/1, Shakkar Gunj, Shah Ali Banda, Hyderabad, Telangana 500065"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact7"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 08801421333"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/bssd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name: Exide Care - Ex Sells"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address8"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:6/265, No 3, ABC, opposite Nilofar Cafe, Himayatnagar, Hyderabad, Telangana 500029"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact8"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 08062565784"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="BACK" />
+
+    </LinearLayout>
+</RelativeLayout>

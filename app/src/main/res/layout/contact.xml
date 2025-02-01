@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_view"
+        tools:ignore="InvalidId" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_view"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="6dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_contact" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Contact Us"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="318dp"
+                    android:layout_height="91dp"
+                    android:text="We value your feedback and are here to assist you. If you have any questions, suggestions, or concerns regarding our app, Vehicle Assistance, please don't hesitate to reach out to us."
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView00"
+                    android:layout_width="318dp"
+                    android:layout_height="39dp"
+                    android:text="Developed by: Poojitha , Zunaira , Sanobar"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView000"
+                    android:layout_width="318dp"
+                    android:layout_height="63dp"
+                    android:text="Contact Information:                                               Email: vehicleassistance@gmail.com                         Phone: 8106770537"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView0000"
+                    android:layout_width="318dp"
+                    android:layout_height="113dp"
+                    android:text="We appreciate your support and look forward to hearing from you. Your feedback plays a crucial role in helping us improve our app and provide a better experience for all our users."
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

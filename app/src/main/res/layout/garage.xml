@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="363dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="625dp"
+        android:gravity="center"
+        android:text="Nearest Service Stations"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="610dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                app:srcCompat="@drawable/ssa"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name: Global Car Ac Service Centre"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address21"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:Muralidhar Bagh Old Kattal Mandi Hyderabad, Abids,Telanagan -500001"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact25"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 07947152126"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                app:srcCompat="@drawable/ssb"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name: Bharat Hyundai"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address22"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:5-9-171, ABIDS Chapel Road, Stanley School, Nampaly, Hyderabad, Telangana 500001"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact26"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 7578888999"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                app:srcCompat="@drawable/ssc"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name:VehicleFix - Car Care Center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address23"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address: 2-256, Hanuman Tekdi Rd, Hanuman Tekdi, Abids, Hyderabad, Telangana 500001"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact27"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91  080192 24740"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                app:srcCompat="@drawable/ssd"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Name: Mahalaxmi Motors"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/address24"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Address:Pillar no no 1273, Shop no 5, 8-264, near metro station, Nampally, Hyderabad, Telangana 500001"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/contact28"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginEnd="2.5dp"
+                    android:text="Contact: +91 090001 53227"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Back" />
+
+    </LinearLayout>
+
+</RelativeLayout>

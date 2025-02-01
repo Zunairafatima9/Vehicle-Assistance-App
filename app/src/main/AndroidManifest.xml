@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MAD"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".evs"
+            android:label="EV Assistance" />
+        <activity
+            android:name=".chargingstation" />
+        <activity
+            android:name=".batteryswap" />
+        <activity
+            android:name=".servicestation" />
+        <activity
+            android:name=".towtruck" />
+
+        <activity
+            android:name=".ice"
+            android:label="IC Assistance" />
+        <activity
+            android:name=".petrolpump" />
+        <activity
+            android:name=".mobilepp" />
+        <activity
+            android:name=".garage" />
+        <activity
+            android:name=".tt" />
+
+        <activity
+            android:name=".about"
+            android:label="About Us" />
+
+        <activity
+            android:name=".contact"
+            android:label="Contact Us" />
+        <activity
+            android:name=".emergency" />
+
+        <activity
+            android:name=".sos" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+
+</manifest>
