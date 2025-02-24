@@ -2,6 +2,7 @@
 
 # Vehicle Assistance App - On Road Vehicle Breakdown Assistance
 
+ABSTRACT:
 The "On Road Vehicle Breakdown Assistance" project is a mobile application designed to provide quick and efficient assistance to vehicle owners in case of breakdowns, especially in remote locations. The app serves as a bridge between vehicle owners and service providers, ensuring prompt help during critical situations.
 
 ## Features
